@@ -42,8 +42,8 @@ function Navbar() {
 
           {/* <label className="swap ">
                 <input type="checkbox"/>
-                <SunIcon data-set-theme="light" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
-                <MoonIcon data-set-theme="dark" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
+                <SunIcon data-set-theme="light" data-act-className="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
+                <MoonIcon data-set-theme="dark" data-act-className="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
             </label> */}
 
           <div className="dropdown ml-6 dropdown-end">

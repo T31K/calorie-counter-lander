@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body {
+  overflow-x: hidden;
+}
+
 video {
   position: absolute;
   z-index: 888;

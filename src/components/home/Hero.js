@@ -7,7 +7,7 @@ function Hero(){
             <div className="hero-content max-w-5xl flex-col lg:flex-row-reverse">
                 <div class="iphone-container scale-[80%] lg:pl-24">
                     <div className="iphone-x ">
-                    <video autoplay loop muted src={videoSrc} playsInline className="video-content rounded-[35px] h-[780px] w-[400px]"></video>
+                    <video autoPlay loop muted src={videoSrc} playsInline className="video-content rounded-[35px] h-[780px] w-[400px]"></video>
 
   
 </div>

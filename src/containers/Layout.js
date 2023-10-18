@@ -23,18 +23,18 @@ export default function Layout({ children }) {
                 
                   <div className="overflow-y-auto">
                       <main>{children}</main>
-                      <Footer />
+                      {/* <Footer /> */}
                   </div>
                   
                </div> 
           </div> 
 
-          <div className="drawer-side">
+          {/* <div className="drawer-side">
               <label htmlFor="my-drawer-3" className="drawer-overlay"></label> 
               <ul className="menu p-4 w-80 bg-base-100">
                   <Navlinks />
               </ul>
-          </div>
+          </div> */}
       </div>
     </>
   )

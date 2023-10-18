@@ -42,9 +42,7 @@ function Navbar(){
   
         <div className="flex-1 px-2 mx-2">
             <Link href="/">
-            <span className='font-bold text-xl'>
-                <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" /> Landing Page
-            </span>
+                <div>T31 Labs.</div>
             </Link>
         </div>
         <div className="flex-none hidden lg:block">
@@ -53,16 +51,15 @@ function Navbar(){
           </ul>
 
         
-          <label className="swap ">
+          {/* <label className="swap ">
                 <input type="checkbox"/>
                 <SunIcon data-set-theme="light" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
                 <MoonIcon data-set-theme="dark" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
-            </label>
+            </label> */}
 
           <div className="dropdown ml-6 dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-6 rounded-full">
-                    <img src="https://placeimg.com/80/80/people" alt="profile" />
                     </div>
                 </label>
                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100  rounded-box w-52">
